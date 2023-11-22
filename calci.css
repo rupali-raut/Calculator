@@ -1,0 +1,42 @@
+div {
+  align-items: center !important;
+}
+body{
+  background-image: url("background1.jpg");
+}
+#calculator{
+    border: 1px solid rgb(170, 162, 162);
+    border-radius: 5px;
+    width: 250px;
+    background-color: black;
+    padding: 10px;
+  }
+  
+  #display {
+    margin: 15px;
+    width: 85%;
+    border-color: grey;
+    border-radius: 5px;
+    height: 45px;
+    text-align: right;
+    background-color: rgb(74, 70, 70);
+    color: aliceblue;
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .button-container{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+  }
+  
+  .button{
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-display: strong;
+    font-size: large;
+  }
